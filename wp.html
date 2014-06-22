@@ -1,0 +1,1032 @@
+<html>
+<head>
+	<title>FASE-WP output</title><style>
+
+			/* Reset taken from: http://meyerweb.com/eric/tools/css/reset/ and modified */
+			html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, 
+			big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, 
+			dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, 
+			canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, 
+			time, mark, audio, video { 
+				margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; 
+				font-family: "Source Sans Pro", Arial, Helvetica, sans-serif; vertical-align: baseline; text-align: left; color: #111;
+			}
+			/* HTML5 display-role reset for older browsers */
+			article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+			body { line-height: 1.3; margin: 1.2em; background: #f8f8f8; }
+
+			ol, ul { list-style: square; }
+			
+			blockquote, q { quotes: none; }
+			
+			blockquote:before, blockquote:after, q:before, q:after { content: ""; content: none; }
+			
+			table { border-collapse: collapse; border-spacing: 0; }
+			
+			h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: .75em; }
+			h1 { font-size: 150%; }
+			h2 { font-size: 125%; margin-top: 2em; }
+			h3 { font-size: 115%; margin-left: 2.5em; }
+			h4 { font-size: 110%; }
+			h5, h6 { font-size: 100%; }
+
+			pre { font-family: "Source Code Pro", Concolas, "Courier New", Courier, monospace; }
+
+			p, pre, ul, ol { margin-bottom: 1em; }
+
+			pre { background: #e0e0e0; border: 1px solid #111; padding: 0.8em; }
+
+			li { margin-left: 2.5em; margin-bottom: 0.5em; }
+
+			a { text-decoration: none; }
+			a, a:visited { color: #009; }
+			a:active, a:hover { color #900; }
+
+			b { font-weight: bold; }
+
+			blockquote { margin-left: 5em; }
+
+		</style>
+</head>
+<body>
+<h1>Quick links</h1>
+<ul>
+	<li><a href='#header_add_action'>add_action</a></li>
+	<li><a href='#header_add_filter'>add_filter</a></li>
+	<li><a href='#header_apply_filters'>apply_filters</a></li>
+	<li><a href='#header_do_action'>do_action</a>	<li><a href='#header_do_action_ref_array'>do_action_ref_array</a></li>
+	<li><a href='#header_files'>files</a></li>
+</ul>
+	<a name='header_add_action'></a><h1>add_action</h1>
+
+	<a name='actionadd_actionactivate_.$file'></a><h2>"activate_".$file</h2>
+
+			<h3>Called in <a href='#wp-includes/plugin.php645'>'wp-includes/plugin.php' (645)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> $function</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionadd_meta_boxes_.$post_type'></a><h2>"add_meta_boxes_".$post_type</h2>
+
+			<h3>Called in <a href='#wp-includes/post.php1325'>'wp-includes/post.php' (1325)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> $args-&gt;register_meta_box_cb</p>
+			<p><b>Priority:</b> 10</p>
+			<p><b>Argument Count:</b> 1</p>
+			</blockquote>
+	<a name='actionadd_actionadmin_head-$page'></a><h2>"admin_head-$page"</h2>
+
+			<h3>Called in <a href='#wp-admin/custom-background.php77'>'wp-admin/custom-background.php' (77)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> $this-&gt;admin_header_callback</p>
+			<p><b>Priority:</b> 51</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-admin/custom-header.php91'>'wp-admin/custom-header.php' (91)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> array($this,'help')</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-admin/custom-header.php92'>'wp-admin/custom-header.php' (92)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> array($this,'take_action')</p>
+			<p><b>Priority:</b> 50</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-admin/custom-header.php93'>'wp-admin/custom-header.php' (93)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> array($this,'js')</p>
+			<p><b>Priority:</b> 50</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-admin/custom-header.php95'>'wp-admin/custom-header.php' (95)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> $this-&gt;admin_header_callback</p>
+			<p><b>Priority:</b> 51</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionadmin_print_scripts-$page'></a><h2>"admin_print_scripts-$page"</h2>
+
+			<h3>Called in <a href='#wp-admin/custom-header.php89'>'wp-admin/custom-header.php' (89)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> array($this,'js_includes')</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionadmin_print_styles-$page'></a><h2>"admin_print_styles-$page"</h2>
+
+			<h3>Called in <a href='#wp-admin/custom-header.php90'>'wp-admin/custom-header.php' (90)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> array($this,'css_includes')</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionafter_plugin_row_$plugin_file'></a><h2>"after_plugin_row_$plugin_file"</h2>
+
+			<h3>Called in <a href='#wp-admin/includes/update.php258'>'wp-admin/includes/update.php' (258)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'wp_plugin_update_row'</p>
+			<p><b>Priority:</b> 10</p>
+			<p><b>Argument Count:</b> 2</p>
+			</blockquote>
+	<a name='actionadd_actionafter_theme_row_$theme'></a><h2>"after_theme_row_$theme"</h2>
+
+			<h3>Called in <a href='#wp-admin/includes/update.php354'>'wp-admin/includes/update.php' (354)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'wp_theme_update_row'</p>
+			<p><b>Priority:</b> 10</p>
+			<p><b>Argument Count:</b> 2</p>
+			</blockquote>
+	<a name='actionadd_actiondeactivate_.$file'></a><h2>"deactivate_".$file</h2>
+
+			<h3>Called in <a href='#wp-includes/plugin.php670'>'wp-includes/plugin.php' (670)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> $function</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionfuture_.$post_type'></a><h2>"future_".$post_type</h2>
+
+			<h3>Called in <a href='#wp-includes/post.php1332'>'wp-includes/post.php' (1332)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> '_future_post_hook'</p>
+			<p><b>Priority:</b> 5</p>
+			<p><b>Argument Count:</b> 2</p>
+			</blockquote>
+	<a name='actionadd_actionload-$page'></a><h2>"load-$page"</h2>
+
+			<h3>Called in <a href='#wp-admin/custom-background.php72'>'wp-admin/custom-background.php' (72)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> array($this,'admin_load')</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-admin/custom-background.php73'>'wp-admin/custom-background.php' (73)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> array($this,'take_action')</p>
+			<p><b>Priority:</b> 49</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-admin/custom-background.php74'>'wp-admin/custom-background.php' (74)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> array($this,'handle_upload')</p>
+			<p><b>Priority:</b> 49</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionload-$theme_page'></a><h2>"load-$theme_page"</h2>
+
+			<h3>Called in <a href='#wp-content/themes/twentyeleven/inc/theme-options.php105'>'wp-content/themes/twentyeleven/inc/theme-options.php' (105)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'twentyeleven_theme_options_help'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionuninstall_.$file'></a><h2>"uninstall_".$file</h2>
+
+			<h3>Called in <a href='#wp-admin/includes/plugin.php937'>'wp-admin/includes/plugin.php' (937)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> $callable</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionwp_ajax_.$_GET[action]'></a><h2>"wp_ajax_".$_GET["action"]</h2>
+
+			<h3>Called in <a href='#wp-admin/admin-ajax.php66'>'wp-admin/admin-ajax.php' (66)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'wp_ajax_'.str_replace('-','_',$_GET['action'])</p>
+			<p><b>Priority:</b> 1</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionwp_ajax_.$_POST[action]'></a><h2>"wp_ajax_".$_POST["action"]</h2>
+
+			<h3>Called in <a href='#wp-admin/admin-ajax.php69'>'wp-admin/admin-ajax.php' (69)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'wp_ajax_'.str_replace('-','_',$_POST['action'])</p>
+			<p><b>Priority:</b> 1</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_action$action'></a><h2>$action</h2>
+
+			<h3>Called in <a href='#wp-includes/default-filters.php228'>'wp-includes/default-filters.php' (228)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'the_generator'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/ms-default-filters.php45'>'wp-includes/ms-default-filters.php' (45)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'wp_maybe_update_network_user_counts'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/ms-default-filters.php47'>'wp-includes/ms-default-filters.php' (47)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'wp_maybe_update_network_site_counts'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_action$hook'></a><h2>$hook</h2>
+
+			<h3>Called in <a href='#wp-includes/rewrite.php93'>'wp-includes/rewrite.php' (93)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> $function</p>
+			<p><b>Priority:</b> 10</p>
+			<p><b>Argument Count:</b> 1</p>
+			</blockquote>
+	<a name='actionadd_action$hookname'></a><h2>$hookname</h2>
+
+			<h3>Called in <a href='#wp-admin/includes/plugin.php988'>'wp-admin/includes/plugin.php' (988)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> $function</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-admin/includes/plugin.php1117'>'wp-admin/includes/plugin.php' (1117)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> $function</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_action_admin_menu'></a><h2>_admin_menu</h2>
+
+			<h3>Called in <a href='#wp-includes/functions.php2744'>'wp-includes/functions.php' (2744)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'wp_widgets_add_menu'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_action_core_updated_successfully'></a><h2>_core_updated_successfully</h2>
+
+			<h3>Called in <a href='#wp-admin/includes/update-core.php1053'>'wp-admin/includes/update-core.php' (1053)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> '_redirect_to_about_wordpress'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionactivity_box_end'></a><h2>activity_box_end</h2>
+
+			<h3>Called in <a href='#wp-admin/includes/dashboard.php1023'>'wp-admin/includes/dashboard.php' (1023)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'wp_dashboard_quota'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-content/plugins/akismet/admin.php344'>'wp-content/plugins/akismet/admin.php' (344)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'akismet_stats'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionadd_option_new_admin_email'></a><h2>add_option_new_admin_email</h2>
+
+			<h3>Called in <a href='#wp-admin/includes/ms.php265'>'wp-admin/includes/ms.php' (265)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'update_option_new_admin_email'</p>
+			<p><b>Priority:</b> 10</p>
+			<p><b>Argument Count:</b> 2</p>
+			</blockquote>
+	<a name='actionadd_actionadmin_action_akismet_recheck_queue'></a><h2>admin_action_akismet_recheck_queue</h2>
+
+			<h3>Called in <a href='#wp-content/plugins/akismet/admin.php823'>'wp-content/plugins/akismet/admin.php' (823)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'akismet_recheck_queue'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionadmin_bar_menu'></a><h2>admin_bar_menu</h2>
+
+			<h3>Called in <a href='#wp-includes/class-wp-admin-bar.php480'>'wp-includes/class-wp-admin-bar.php' (480)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'wp_admin_bar_my_account_menu'</p>
+			<p><b>Priority:</b> 0</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/class-wp-admin-bar.php481'>'wp-includes/class-wp-admin-bar.php' (481)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'wp_admin_bar_search_menu'</p>
+			<p><b>Priority:</b> 4</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/class-wp-admin-bar.php482'>'wp-includes/class-wp-admin-bar.php' (482)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'wp_admin_bar_my_account_item'</p>
+			<p><b>Priority:</b> 7</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/class-wp-admin-bar.php485'>'wp-includes/class-wp-admin-bar.php' (485)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'wp_admin_bar_sidebar_toggle'</p>
+			<p><b>Priority:</b> 0</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/class-wp-admin-bar.php486'>'wp-includes/class-wp-admin-bar.php' (486)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'wp_admin_bar_wp_menu'</p>
+			<p><b>Priority:</b> 10</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/class-wp-admin-bar.php487'>'wp-includes/class-wp-admin-bar.php' (487)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'wp_admin_bar_my_sites_menu'</p>
+			<p><b>Priority:</b> 20</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/class-wp-admin-bar.php488'>'wp-includes/class-wp-admin-bar.php' (488)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'wp_admin_bar_site_menu'</p>
+			<p><b>Priority:</b> 30</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/class-wp-admin-bar.php489'>'wp-includes/class-wp-admin-bar.php' (489)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'wp_admin_bar_updates_menu'</p>
+			<p><b>Priority:</b> 40</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/class-wp-admin-bar.php493'>'wp-includes/class-wp-admin-bar.php' (493)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'wp_admin_bar_comments_menu'</p>
+			<p><b>Priority:</b> 60</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/class-wp-admin-bar.php494'>'wp-includes/class-wp-admin-bar.php' (494)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'wp_admin_bar_new_content_menu'</p>
+			<p><b>Priority:</b> 70</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/class-wp-admin-bar.php496'>'wp-includes/class-wp-admin-bar.php' (496)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'wp_admin_bar_edit_menu'</p>
+			<p><b>Priority:</b> 80</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/class-wp-admin-bar.php498'>'wp-includes/class-wp-admin-bar.php' (498)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'wp_admin_bar_add_secondary_groups'</p>
+			<p><b>Priority:</b> 200</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionadmin_color_scheme_picker'></a><h2>admin_color_scheme_picker</h2>
+
+			<h3>Called in <a href='#wp-includes/default-filters.php284'>'wp-includes/default-filters.php' (284)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'admin_color_scheme_picker'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionadmin_enqueue_scripts'></a><h2>admin_enqueue_scripts</h2>
+
+			<h3>Called in <a href='#wp-admin/includes/template.php1929'>'wp-admin/includes/template.php' (1929)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> array('WP_Internal_Pointers','enqueue_scripts')</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-content/plugins/akismet/admin.php30'>'wp-content/plugins/akismet/admin.php' (30)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'akismet_load_js_and_css'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/default-filters.php296'>'wp-includes/default-filters.php' (296)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'wp_auth_check_load'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/theme.php1841'>'wp-includes/theme.php' (1841)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> '_wp_customize_loader_settings'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionadmin_footer'></a><h2>admin_footer</h2>
+
+			<h3>Called in <a href='#wp-admin/edit-form-advanced.php33'>'wp-admin/edit-form-advanced.php' (33)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> '_local_storage_notice'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-admin/includes/class-wp-list-table.php102'>'wp-admin/includes/class-wp-list-table.php' (102)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> array($this,'_js_vars')</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-admin/post-new.php52'>'wp-admin/post-new.php' (52)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> '_admin_notice_post_locked'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-admin/post-new.php57'>'wp-admin/post-new.php' (57)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> '_admin_notice_post_locked'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-admin/post.php187'>'wp-admin/post.php' (187)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> '_admin_notice_post_locked'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-admin/post.php192'>'wp-admin/post.php' (192)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> '_admin_notice_post_locked'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/class-wp-editor.php161'>'wp-includes/class-wp-editor.php' (161)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> array(__CLASS__,'enqueue_scripts')</p>
+			<p><b>Priority:</b> 1</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/media.php1943'>'wp-includes/media.php' (1943)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'wp_print_media_templates'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionadmin_head'></a><h2>admin_head</h2>
+
+			<h3>Called in <a href='#wp-admin/export.php44'>'wp-admin/export.php' (44)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'export_add_js'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-admin/includes/misc.php637'>'wp-admin/includes/misc.php' (637)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'wp_color_scheme_settings'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-admin/includes/misc.php646'>'wp-admin/includes/misc.php' (646)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> '_ipad_meta'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-admin/options-general.php58'>'wp-admin/options-general.php' (58)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'options_general_add_js'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-admin/options-reading.php41'>'wp-admin/options-reading.php' (41)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'options_reading_add_js'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-admin/users.php212'>'wp-admin/users.php' (212)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'delete_users_add_js'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-content/plugins/hello.php80'>'wp-content/plugins/hello.php' (80)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'dolly_css'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/class-wp-admin-bar.php46'>'wp-includes/class-wp-admin-bar.php' (46)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'wp_admin_bar_header'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/general-template.php2252'>'wp-includes/general-template.php' (2252)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> '_thickbox_path_admin_subfolder'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionadmin_head-edit.php'></a><h2>admin_head-edit.php</h2>
+
+			<h3>Called in <a href='#wp-content/themes/twentyfourteen/inc/customizer.php108'>'wp-content/themes/twentyfourteen/inc/customizer.php' (108)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'twentyfourteen_contextual_help'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionadmin_head-nav-menus.php'></a><h2>admin_head-nav-menus.php</h2>
+
+			<h3>Called in <a href='#wp-admin/includes/nav-menu.php1249'>'wp-admin/includes/nav-menu.php' (1249)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> '_wp_delete_orphaned_draft_menu_items'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionadmin_head-themes.php'></a><h2>admin_head-themes.php</h2>
+
+			<h3>Called in <a href='#wp-content/themes/twentyfourteen/inc/customizer.php107'>'wp-content/themes/twentyfourteen/inc/customizer.php' (107)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'twentyfourteen_contextual_help'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionadmin_init'></a><h2>admin_init</h2>
+
+			<h3>Called in <a href='#wp-admin/includes/update.php262'>'wp-admin/includes/update.php' (262)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'wp_plugin_update_rows'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-admin/includes/update.php358'>'wp-admin/includes/update.php' (358)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'wp_theme_update_rows'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-admin/includes/user.php377'>'wp-admin/includes/user.php' (377)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'default_password_nag_handler'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-content/plugins/akismet/admin.php28'>'wp-content/plugins/akismet/admin.php' (28)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'akismet_admin_init'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-content/plugins/akismet/legacy.php373'>'wp-content/plugins/akismet/legacy.php' (373)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'redirect_old_akismet_urls'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-content/themes/twentyeleven/inc/theme-options.php65'>'wp-content/themes/twentyeleven/inc/theme-options.php' (65)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'twentyeleven_theme_options_init'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-content/themes/twentyfourteen/inc/featured-content.php88'>'wp-content/themes/twentyfourteen/inc/featured-content.php' (88)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> array(__CLASS__,'register_setting')</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/admin-bar.php49'>'wp-includes/admin-bar.php' (49)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> '_wp_admin_bar_init'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/default-filters.php258'>'wp-includes/default-filters.php' (258)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'send_frame_options_header'</p>
+			<p><b>Priority:</b> 10</p>
+			<p><b>Argument Count:</b> 0</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/default-filters.php283'>'wp-includes/default-filters.php' (283)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'register_admin_color_schemes'</p>
+			<p><b>Priority:</b> 1</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/ms-default-filters.php42'>'wp-includes/ms-default-filters.php' (42)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'wp_schedule_update_network_counts'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/update.php604'>'wp-includes/update.php' (604)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> '_maybe_update_core'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/update.php611'>'wp-includes/update.php' (611)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> '_maybe_update_plugins'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/update.php618'>'wp-includes/update.php' (618)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> '_maybe_update_themes'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionadmin_menu'></a><h2>admin_menu</h2>
+
+			<h3>Called in <a href='#wp-admin/custom-background.php57'>'wp-admin/custom-background.php' (57)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> array($this,'init')</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-admin/custom-header.php75'>'wp-admin/custom-header.php' (75)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> array($this,'init')</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-admin/menu.php157'>'wp-admin/menu.php' (157)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> '_add_themes_utility_last'</p>
+			<p><b>Priority:</b> 101</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-content/plugins/akismet/admin.php2'>'wp-content/plugins/akismet/admin.php' (2)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'akismet_admin_menu'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-content/plugins/akismet/legacy.php356'>'wp-content/plugins/akismet/legacy.php' (356)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'akismet_manage_page'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-content/themes/twentyeleven/inc/theme-options.php107'>'wp-content/themes/twentyeleven/inc/theme-options.php' (107)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'twentyeleven_theme_options_add_page'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/post.php1553'>'wp-includes/post.php' (1553)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> '_add_post_type_submenus'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionadmin_notices'></a><h2>admin_notices</h2>
+
+			<h3>Called in <a href='#wp-admin/includes/ms.php341'>'wp-admin/includes/ms.php' (341)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'new_user_email_admin_notice'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-admin/includes/ms.php609'>'wp-admin/includes/ms.php' (609)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'site_admin_notice'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-admin/includes/update.php219'>'wp-admin/includes/update.php' (219)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'update_nag'</p>
+			<p><b>Priority:</b> 3</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-admin/includes/update.php434'>'wp-admin/includes/update.php' (434)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'maintenance_nag'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-admin/includes/user.php409'>'wp-admin/includes/user.php' (409)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'default_password_nag'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-content/plugins/akismet/admin.php17'>'wp-content/plugins/akismet/admin.php' (17)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'akismet_version_warning'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-content/plugins/akismet/admin.php371'>'wp-content/plugins/akismet/admin.php' (371)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'akismet_alert'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-content/plugins/akismet/admin.php404'>'wp-content/plugins/akismet/admin.php' (404)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'akismet_warning'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-content/plugins/akismet/admin.php417'>'wp-content/plugins/akismet/admin.php' (417)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'akismet_warning'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-content/plugins/hello.php60'>'wp-content/plugins/hello.php' (60)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'hello_dolly'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-content/themes/twentyfourteen/inc/back-compat.php26'>'wp-content/themes/twentyfourteen/inc/back-compat.php' (26)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'twentyfourteen_upgrade_notice'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-content/themes/twentythirteen/inc/back-compat.php26'>'wp-content/themes/twentythirteen/inc/back-compat.php' (26)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'twentythirteen_upgrade_notice'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionadmin_page_access_denied'></a><h2>admin_page_access_denied</h2>
+
+			<h3>Called in <a href='#wp-admin/includes/bookmark.php316'>'wp-admin/includes/bookmark.php' (316)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'wp_link_manager_disabled_message'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-admin/includes/ms.php552'>'wp-admin/includes/ms.php' (552)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> '_access_denied_splash'</p>
+			<p><b>Priority:</b> 99</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionadmin_print_footer_scripts'></a><h2>admin_print_footer_scripts</h2>
+
+			<h3>Called in <a href='#wp-admin/includes/template.php1762'>'wp-admin/includes/template.php' (1762)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> array('WP_Internal_Pointers','pointer_'.$pointer)</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/class-wp-editor.php160'>'wp-includes/class-wp-editor.php' (160)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> array(__CLASS__,'editor_js')</p>
+			<p><b>Priority:</b> 50</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/default-filters.php245'>'wp-includes/default-filters.php' (245)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> '_wp_footer_scripts'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/functions.php4044'>'wp-includes/functions.php' (4044)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'wp_auth_check_html'</p>
+			<p><b>Priority:</b> 5</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionadmin_print_scripts'></a><h2>admin_print_scripts</h2>
+
+			<h3>Called in <a href='#wp-includes/default-filters.php244'>'wp-includes/default-filters.php' (244)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'print_head_scripts'</p>
+			<p><b>Priority:</b> 20</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionadmin_print_scripts-appearance_page_custom-header'></a><h2>admin_print_scripts-appearance_page_custom-header</h2>
+
+			<h3>Called in <a href='#wp-content/themes/twentyfourteen/functions.php279'>'wp-content/themes/twentyfourteen/functions.php' (279)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'twentyfourteen_admin_fonts'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionadmin_print_styles'></a><h2>admin_print_styles</h2>
+
+			<h3>Called in <a href='#wp-includes/default-filters.php246'>'wp-includes/default-filters.php' (246)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'print_admin_styles'</p>
+			<p><b>Priority:</b> 20</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionadmin_print_styles-appearance_page_custom-header'></a><h2>admin_print_styles-appearance_page_custom-header</h2>
+
+			<h3>Called in <a href='#wp-content/themes/twentythirteen/inc/custom-header.php81'>'wp-content/themes/twentythirteen/inc/custom-header.php' (81)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'twentythirteen_custom_header_fonts'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-content/themes/twentytwelve/inc/custom-header.php62'>'wp-content/themes/twentytwelve/inc/custom-header.php' (62)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'twentytwelve_custom_header_fonts'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionadmin_print_styles-appearance_page_theme_options'></a><h2>admin_print_styles-appearance_page_theme_options</h2>
+
+			<h3>Called in <a href='#wp-content/themes/twentyeleven/inc/theme-options.php24'>'wp-content/themes/twentyeleven/inc/theme-options.php' (24)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'twentyeleven_admin_enqueue_scripts'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionafter_setup_theme'></a><h2>after_setup_theme</h2>
+
+			<h3>Called in <a href='#wp-content/themes/twentyeleven/functions.php48'>'wp-content/themes/twentyeleven/functions.php' (48)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'twentyeleven_setup'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-content/themes/twentyfourteen/functions.php118'>'wp-content/themes/twentyfourteen/functions.php' (118)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'twentyfourteen_setup'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-content/themes/twentyfourteen/inc/custom-header.php48'>'wp-content/themes/twentyfourteen/inc/custom-header.php' (48)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'twentyfourteen_custom_header_setup'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-content/themes/twentyten/functions.php51'>'wp-content/themes/twentyten/functions.php' (51)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'twentyten_setup'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-content/themes/twentythirteen/functions.php109'>'wp-content/themes/twentythirteen/functions.php' (109)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'twentythirteen_setup'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-content/themes/twentythirteen/inc/custom-header.php65'>'wp-content/themes/twentythirteen/inc/custom-header.php' (65)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'twentythirteen_custom_header_setup'</p>
+			<p><b>Priority:</b> 11</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-content/themes/twentytwelve/functions.php78'>'wp-content/themes/twentytwelve/functions.php' (78)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'twentytwelve_setup'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-content/themes/twentytwelve/inc/custom-header.php48'>'wp-content/themes/twentytwelve/inc/custom-header.php' (48)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'twentytwelve_custom_header_setup'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/class-wp-customize-manager.php128'>'wp-includes/class-wp-customize-manager.php' (128)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> array($this,'after_setup_theme')</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionafter_switch_theme'></a><h2>after_switch_theme</h2>
+
+			<h3>Called in <a href='#wp-content/themes/twentyfourteen/inc/back-compat.php28'>'wp-content/themes/twentyfourteen/inc/back-compat.php' (28)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'twentyfourteen_switch_theme'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-content/themes/twentythirteen/inc/back-compat.php28'>'wp-content/themes/twentythirteen/inc/back-compat.php' (28)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'twentythirteen_switch_theme'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/default-filters.php216'>'wp-includes/default-filters.php' (216)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> '_wp_sidebars_changed'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionakismet_schedule_cron_recheck'></a><h2>akismet_schedule_cron_recheck</h2>
+
+			<h3>Called in <a href='#wp-content/plugins/akismet/akismet.php578'>'wp-content/plugins/akismet/akismet.php' (578)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'akismet_cron_recheck'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionakismet_scheduled_delete'></a><h2>akismet_scheduled_delete</h2>
+
+			<h3>Called in <a href='#wp-content/plugins/akismet/akismet.php478'>'wp-content/plugins/akismet/akismet.php' (478)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'akismet_delete_old'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-content/plugins/akismet/akismet.php479'>'wp-content/plugins/akismet/akismet.php' (479)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'akismet_delete_old_metadata'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionall_admin_notices'></a><h2>all_admin_notices</h2>
+
+			<h3>Called in <a href='#wp-includes/locale.php189'>'wp-includes/locale.php' (189)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> array($this,'rtl_src_admin_notice')</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionattachment_submitbox_misc_actions'></a><h2>attachment_submitbox_misc_actions</h2>
+
+			<h3>Called in <a href='#wp-admin/includes/media.php2569'>'wp-admin/includes/media.php' (2569)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'attachment_submitbox_metadata'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionbefore_delete_post'></a><h2>before_delete_post</h2>
+
+			<h3>Called in <a href='#wp-includes/post.php2387'>'wp-includes/post.php' (2387)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> '_reset_front_page_settings_for_post'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actionbegin_fetch_post_thumbnail_html'></a><h2>begin_fetch_post_thumbnail_html</h2>
+
+			<h3>Called in <a href='#wp-includes/default-filters.php269'>'wp-includes/default-filters.php' (269)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> '_wp_post_thumbnail_class_filter_add'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actioncheck_comment_flood'></a><h2>check_comment_flood</h2>
+
+			<h3>Called in <a href='#wp-includes/default-filters.php180'>'wp-includes/default-filters.php' (180)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'check_comment_flood_db'</p>
+			<p><b>Priority:</b> 10</p>
+			<p><b>Argument Count:</b> 3</p>
+			</blockquote>
+	<a name='actionadd_actioncomment_form'></a><h2>comment_form</h2>
+
+			<h3>Called in <a href='#wp-content/plugins/akismet/akismet.php589'>'wp-content/plugins/akismet/akismet.php' (589)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'akismet_add_comment_nonce'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/default-filters.php255'>'wp-includes/default-filters.php' (255)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'wp_comment_form_unfiltered_html_nonce'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actioncomment_post'></a><h2>comment_post</h2>
+
+			<h3>Called in <a href='#wp-includes/default-widgets.php645'>'wp-includes/default-widgets.php' (645)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> array($this,'flush_widget_cache')</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actioncustomize_controls_enqueue_scripts'></a><h2>customize_controls_enqueue_scripts</h2>
+
+			<h3>Called in <a href='#wp-content/themes/twentyfourteen/inc/featured-content.php91'>'wp-content/themes/twentyfourteen/inc/featured-content.php' (91)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> array(__CLASS__,'enqueue_scripts')</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/class-wp-customize-manager.php55'>'wp-includes/class-wp-customize-manager.php' (55)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> array($this,'enqueue_control_scripts')</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/media.php1683'>'wp-includes/media.php' (1683)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'wp_plupload_default_settings'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actioncustomize_controls_init'></a><h2>customize_controls_init</h2>
+
+			<h3>Called in <a href='#wp-includes/class-wp-customize-control.php488'>'wp-includes/class-wp-customize-control.php' (488)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> array($this,'prepare_control')</p>
+			<p><b>Priority:</b> 5</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/class-wp-customize-manager.php54'>'wp-includes/class-wp-customize-manager.php' (54)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> array($this,'prepare_controls')</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+	<a name='actionadd_actioncustomize_controls_print_footer_scripts'></a><h2>customize_controls_print_footer_scripts</h2>
+
+			<h3>Called in <a href='#wp-admin/customize.php31'>'wp-admin/customize.php' (31)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> '_wp_footer_scripts'</p>
+			<p><b>Priority:</b> 10 (default)</p>
+			<p><b>Argument Count:</b> 1 (default)</p>
+			</blockquote>
+			<h3>Called in <a href='#wp-includes/media.php1945'>'wp-includes/media.php' (1945)</a></h3>
+			<blockquote>
+			<p><b>Function Called:</b> 'wp_print_media_templates'</p>
+			<p><b>Priority:</b> 10 (default)</p>
