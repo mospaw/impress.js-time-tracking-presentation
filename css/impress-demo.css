@@ -39,12 +39,14 @@ ol, ul {
     list-style: none;
 }
 blockquote, q {
-    quotes: none;
+    background: #e9f9e9;
+    border-left: 10px solid #bcb;
+    margin: 1.5em 10px;
+    padding: 0 20px;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
     content: '';
-    content: none;
 }
 
 table {
@@ -56,8 +58,13 @@ table {
 body {
     font-family: 'Roboto Slab', serif;
     min-height: 740px;
+    background-color: #150;
+}
 
-    background: #150;
+div .background {
+    background-image: url(tiles.gif) repeat-x repeat-y ;
+    background-size: 100%;
+    background-repeat: repeat-x repeat-y;
 }
 
 
@@ -93,8 +100,8 @@ a:focus {
     padding: 10px 10px 0;
     margin: 20px auto;
 
-    border: 1px solid #E4C652;
-    border-radius: 10px;
+    border: 1px solid #130;
+    
     background: #EEDC94;
 }
 
@@ -157,11 +164,10 @@ a:focus {
 
     background-color: white;
     border: 1px solid rgba(0, 0, 0, .3);
-    border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+   
+    box-shadow: 0 2px 6px rgba(3px, 3px, 3px, .3);
 
     color: #300;
-    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
 
     font-family: 'Roboto Slab', serif;
     font-size: 30px;
@@ -187,6 +193,12 @@ a:focus {
 	margin-bottom: 28px;
     color: #000;
 }
+
+.slide p.small {
+    font-size: 21px;
+    line-height: 1.2;
+}
+
 
 .slide h1, .slide h2, .slide h3, .slide h4  {
     letter-spacing: .03em;
@@ -274,6 +286,11 @@ h5 b,
     float: right;
     margin: 0 0 20px 20px;
 }
+
+.slide img.border { 
+    border: 2px solid black;
+}
+
 
 .slide p.img {
     text-align: center;
