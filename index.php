@@ -36,21 +36,23 @@
 <?php slide_open(); ?>
 	<h1 id="why">What is lazy?</h1>
 
-	<img class="hero" src="lazy.jpg" width="325">
+	<img class="hero" src="lazy.jpg" width="375">
 
-	<p>It is <i>NOT</i> sitting on a couch watching the world go by all day.</p>
+	<p>This lazy is <i>NOT</i> sitting on a couch watching the world go by all day.</p>
 
-	<p>Lazy is <b>I don’t like to do things twice or have to worry about remembering details</b>.</p>
+	<p>Lazy is <b>"I don’t like to do things twice or have to worry about remembering details"</b>.</p>
 
-	<p>Memory of what you do day-to-day fades quickly. If it's noted in a coherent way, it’s a lot easier to bill for.</p>
+	<p>Memory of what you do day-to-day fades quickly. If it's noted in a coherent way, it’s a lot easier to track and bill.</p>
 
-	<p><i>Doing a little extra work allows me to stay lazy.</i> My computer rememebrs the details.</p>
+	<p><i>Doing a little extra work allows me to stay lazy.</i> My computer (and Google Docs) remember the details.</p>
 
 <?php slide_close(); ?>
 
 
 <?php slide_open(); ?>
 	<h1 id="my-tools-spreadsheets-a-stopwatch-and-notes">The tools</h1>
+
+<p class="small"><i>Don't worry about taking notes. There will be a post on the intranet with links.</i></p>
 
 	<img class="hero" src="chrome-logo.jpg" width="225">
 	<h2>A Browser with a Stopwatch</h2>
@@ -93,7 +95,7 @@
 
 	<h2 id="billed">Billed</h2>
 
-	<p>"X" Once a line item is entered in the billing system</p>
+	<p>Add a nice big <b>"X"</b> once a line item is entered in the billing system</p>
 
 	<h2 id="client">Client</h2>
 
@@ -105,7 +107,7 @@
 
 	<h2 id="hours">Descriptions</h2>
 
-	<p>More on this later...</p>
+	<p>Important stuff! More on this later...</p>
 
 
 <?php slide_close(); ?>
@@ -125,20 +127,19 @@
 
 	<h2 id="notes">Notes</h2>
 
-	<p>Any quick notes that might be needed can be put in an additional notes column. Lengthier Notes should be taken in the note taking editor and linked here.</p>
+	<p>Any quick notes that might be needed can be put in an additional <b>"Notes"</b> column. Lengthier notes should be written in your note taking system.</p>
 
 
 <?php slide_close(); ?>
 
 <?php slide_open(); ?>
-	<h1 id="the-spreadsheet2">So what about those descriptions?</h1>
+	<h1 id="the-spreadsheet2">What are descriptions?</h1>
 
 	<img class="hero" src="spreadsheet.png" width="350">
-	<h2 id="description">Description</h2>
+	<h2 id="description">Descriptions are billing line items</h2>
 
 	<p>In plain words, tell what you did. Be descriptive. Heed our <b>“Line Item Language”</b>.</p>
 	
-	<br>
 
 	<h2 id="justification">Bigger is better</h2>
 
@@ -172,7 +173,8 @@
 
 	<img class="hero" src="don-hewitt.jpg" width="325">
 
-	<p>Don Hewitt created the TV show <em>60 Minutes.</em> His command to reporters was <b>"Tell me a story"</b>. Tell the client a story.</p>
+	<p>Don Hewitt created the TV show <em>60 Minutes.</em> His advice to reporters was <b>"Tell me a story"</b>.</p>
+	<p><i>Tell the client a story.</i></p>
 
 <ul>
 	<li>Be specific. </li>
@@ -190,7 +192,7 @@
 
 	<img class="hero" src="happy-clients.jpg" width="375">
 
-	<p>Our experience has shown that:</p>
+	<p>Our experience shows that:</p>
 
 	<p><b>More billing line items with smaller times next to them ...</b></p>
 	<p>... are better than ...</p>
@@ -214,7 +216,7 @@
 	<li> Plain language description of what was done</li>
 	<li> Line items documenting a specific process</li>
 	<li> End user or technial documentation</li>
-	<li> Any combintation of these</li>
+	<li> Any combintation of these or anything else</li>
 	</ul>
 
 	<p class="small">What’s most important is that any fleeting thoughts that are not part of the code somehow get captured and organized.</p>
@@ -230,9 +232,9 @@
 	<p>Answer: <b>Everything</b></p>
 
 <ul>
-	<li>If a task takes minute or two it can get rolled into “Billing, email, task management”</li>
+	<li>If a task takes <b>minute or two</b> it can get rolled into “Billing, email, task management”</li>
 	
-	<li>Anything that takes more than a few minutes gets billed.</li>
+	<li>Anything that takes more than a few minutes <b>gets billed</b>.</li>
 
 	<li>If in doubt, <b>bill it</b> instead of rolling it into “Billing, email, task management”, which should generally be around 30 minutes a day or less.</li>
 </ul>
@@ -252,9 +254,9 @@
 
 	<h2>Bottom Line</h2>
 
-	<p>If you’re going to err, <b>err on the side of billing too much</b> and providing too much information.</p>
+	<p>If you’re going to err, <b>err on the side of billing too much</b> and providing too much information. Yep, even on internal stuff.</p>
 
-	<p class="small">It’s far easier to remove unneeded information and adjust a billing line than it is to read someone’s mind.</p>
+	<p class="small"><i>It’s far easier to remove unneeded information and adjust a billing line than it is to read someone’s mind.</i></p>
 
 <?php slide_close(); ?>
 
@@ -262,13 +264,16 @@
 <?php slide_open(); ?>
 	<h1 id="workflow">Workflow</h1>
 
-	<img class="hero" src="complex-workflow.jpg" width="400">
+<div class="hero">
+	<img class="hero" src="interesting.jpg" width="300"><br>
+	<p style="margin-left: 10px; text-align: center;"><b>Stay lazy, my friends.</b></p>
+</div>
 
 	<ul>
 	<li>This workflow is simple and deliberate</li>
-	<li>Designed to become a habit and to minimize extra work</li>
-	<li>Entering time into the billing system is a snap, since it’s basically copying and pasting descriptions
-	<li>Finding out what you did in the past is a search away
+	<li>Designed to become a habit and minimize extra work</li>
+	<li>Makes entering time into the billing system is a snap. Descriptions get copied and pasted in</li>
+	<li>Finding out what you did in the past is a search away</li>
 	</ul>
 
 <?php slide_close(); ?>
@@ -299,7 +304,7 @@
 	</div>
 
 <ul>
-	<li>Add a new stopwatch with task and client info to Simple Time Track
+	<li>Add a new stopwatch with task and client info to <i>Simple Time Track</i>
 	<li>Create a line item on today’s spreadsheet with the client name and paste the URL to the task (Sifter, TasksPro, GitHub issue, etc.) into the task column</p>
 	<li>Fire up a new note or edit a previous one inyour note taker</p>
 </ul>
@@ -323,7 +328,7 @@
 
 	<img class="hero" src="aliens.jpg" width="350">
 
-	<p>Successful and thorough time tracking and billing leads to:</p>
+	<p>Thoroughly accurate time tracking and billing leads to:</p>
 
 	<ul>
 		<li>Successful projects</li>
