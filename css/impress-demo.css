@@ -58,7 +58,7 @@ table {
 body {
     font-family: 'Roboto Slab', serif;
     min-height: 740px;
-    background-color: #150;
+    background-color: #052500;
 }
 
 div .background {
@@ -207,6 +207,7 @@ a:focus {
 h5 b,
 .slide h2,
 .slide h1 span.b,
+.slide li b,
 .slide p b {
     color: #390;
     font-weight: 900;
@@ -219,6 +220,7 @@ h5 b,
 	border-bottom: 4px solid #333;
 	margin-bottom: 18px;
 	padding-bottom: 12px;
+	line-height: 1.1;
     font-family: 'Alfa Slab One', cursive;
 }
 
@@ -228,6 +230,7 @@ h5 b,
     line-height: 1.5;
     margin-bottom: 14px;
     font-weight: normal;
+    letter-spacing: 0.05em;
     font-family: 'Alfa Slab One', cursive;
 }
 
@@ -282,6 +285,7 @@ h5 b,
 	font-weight: 900;
 }
 
+.slide div.hero,
 .slide img.hero { 
     float: right;
     margin: 0 0 20px 20px;
@@ -291,6 +295,18 @@ h5 b,
     border: 2px solid black;
 }
 
+
+.slide ul {
+	list-style: square;
+	margin-left: 1.5em;
+}
+
+
+.slide li {
+	line-height: 1.4;
+	margin-bottom: 28px;
+	padding-left: 0.5em;
+}
 
 .slide p.img {
     text-align: center;
